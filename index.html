@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaya Hotel | Modern & Affordable Lodge in Metro Manila</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        Yaya Hotel
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Metro Manila's Premium Budget Lodge</div>
+      <h1 class="hero-title">Welcome to Yaya Hotel</h1>
+      <p class="hero-subtitle">Modern, affordable lodge-style comfort in the heart of the city. Clean, practical, and
+        welcoming.</p>
+      <div class="hero-stats">
+        <span>✓ Free WiFi</span>
+        <span>✓ 24/7 Security</span>
+        <span>✓ Cozy & Efficient</span>
+      </div>
+      <a href="#contact" class="cta-button primary">Book Your Stay</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <div class="section-subtitle">Our Concept</div>
+    <h2>Modern Filipino Budget Hotel</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Yaya Hotel is a 2 to 3 story building with a minimalist, clean facade thoughtfully designed to stand out in
+          the bustling residential-commercial area of Metro Manila.</p>
+        <p>Our aesthetic embraces the charm of the modern Filipino lifestyle while prioritizing efficiency. Neutral
+          tones of warm beige and light gray are combined with wood accents and ambient lighting to provide a cozy
+          atmosphere.</p>
+        <p>With an emphasis on cleanliness, simplicity, and uncompromised comfort, Yaya Hotel is the perfect sanctuary
+          for budget travelers, students, and short-stay guests.</p>
+      </div>
+      <div class="about-image map-container"
+        style="background-image: url('exterior.jpg'); height: 350px; background-size: contain; background-repeat: no-repeat; background-position: center; background-color: var(--bg-primary);">
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section id="rooms" class="container">
+    <div class="section-subtitle">Compact & Efficient Layouts</div>
+    <h2>Our Rooms</h2>
+    <div class="rooms-grid">
+      <!-- Room 1 -->
+      <div class="room-card">
+        <div class="room-image" style="background-image: url('double.jpg');">
+        </div>
+        <div class="room-info">
+          <h3>Double En-Suite</h3>
+          <p>Perfect for couples or friends. Complete with clean white bedsheets, soft ambient lighting, AC,
+            wall-mounted TV, and 1 CR private bathroom.</p>
+          <div class="room-price">₱1,800 <span
+              style="font-size: 1rem; color: var(--text-secondary); font-weight: normal;">/ night</span></div>
+        </div>
+      </div>
+      <!-- CR (Comfort Room) -->
+      <div class="room-card">
+        <div class="room-image" style="background-image: url('cr.jpg');">
+        </div>
+        <div class="room-info">
+          <h3>Modern CR (Comfort Room)</h3>
+          <p>Pristine and well-maintained private CR equipped with modern fixtures, consistent hot shower, well-lit
+            mirror, and a clean bidet.</p>
+          <div class="room-price">Included <span
+              style="font-size: 1rem; color: var(--text-secondary); font-weight: normal;">in all rooms</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Details/Amenities Grid -->
+  <section id="amenities" class="container">
+    <div class="section-subtitle">Comfort & Safety</div>
+    <h2>Hotel Amenities</h2>
+    <div class="rooms-grid">
+      <div class="room-card" style="padding: 40px; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 20px;">📶</div>
+        <h3 style="margin-bottom: 15px; font-size: 1.5rem; font-weight: 700;">Fast Free WiFi</h3>
+        <p>Stay connected with reliable wireless internet available in all rooms and common areas.</p>
+      </div>
+      <div class="room-card" style="padding: 40px; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 20px;">🛡️</div>
+        <h3 style="margin-bottom: 15px; font-size: 1.5rem; font-weight: 700;">24/7 Security</h3>
+        <p>Feel safe with modern CCTV monitoring, well-lit corridors, and secure room access.</p>
+      </div>
+      <div class="room-card" style="padding: 40px; text-align: center;">
+        <div style="font-size: 3.5rem; margin-bottom: 20px;">📺</div>
+        <h3 style="margin-bottom: 15px; font-size: 1.5rem; font-weight: 700;">Modern Comforts</h3>
+        <p>Every room is equipped with a wall-mounted TV, clean AC unit, and a hot shower.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-subtitle">Book with us</div>
+      <h2>Reserve Your Stay</h2>
+      <form class="booking-form">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="date" required>
+          </div>
+          <div class="form-group">
+            <select required style="color: var(--text-primary);">
+              <option value="">Select Room Type</option>
+              <option value="double">Double En-Suite</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Special Requests or Comments"></textarea>
+        </div>
+        <button type="submit" class="cta-button primary full"
+          style="background: white; color: var(--primary-color);">Inquire Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p style="font-weight: 700; font-size: 1.2rem; color: var(--text-primary);">Yaya Hotel</p>
+      <p style="color: var(--text-secondary); margin-top: 10px;">A Modern Budget Lodge in Metro Manila</p>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 20px;">&copy; 2026 Yaya Hotel. All Rights
+        Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
